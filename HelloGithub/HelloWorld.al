@@ -6,6 +6,7 @@ pageextension 50500 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
+        // Example of commit in the cloud
         Message('App published: Hello world');
     end;
 }
